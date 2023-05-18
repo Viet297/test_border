@@ -4,20 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3 style={{textAlign:'center'}}>border 0.6</h3>
+      <div className='div_border_06'>
+      </div>
+      <h3 style={{textAlign:'center'}}>border 1</h3>
+      <div className='div_border_1'>
+      </div>
     </div>
   );
 }
